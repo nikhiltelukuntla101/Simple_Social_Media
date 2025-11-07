@@ -1,12 +1,14 @@
-# Python-generated files
+# Python cache
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+*.pyo
 
-# Virtual environments
-.venv
-".env" 
-test.db
+# Environment files
+.env
+.venv/
+
+# Databases
+*.db
+
+# IDE files
+.vscode/
